@@ -1,0 +1,39 @@
+.photo {
+  max-width: 1180px;
+  margin: auto;
+}
+.photo img {
+  width: 1180px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+.lemonButton {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  background-color: ghostwhite;
+  gap: 10px;
+}
+.lemonButton button {
+  width: 94px;
+  height: 35px;
+  background-color: #fbda04;
+  color: #000;
+  border: 0;
+  opacity: 1;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+@keyframes fadeOutOpacity {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0, 4;
+  }
+}

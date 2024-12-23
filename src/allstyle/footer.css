@@ -1,0 +1,44 @@
+.mainFooter {
+  width: 100%;
+  margin: auto;
+  background-color: #0040d4;
+}
+.sotiol {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sotiol img {
+  width: 60px;
+  height: 60px;
+}
+.parentLemon {
+  background-color: #0040d4;
+  height: 300px;
+  display: flex;
+  gap: 80px;
+}
+.intro1 {
+  max-width: 200px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.intro2 {
+  max-width: 200px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.intro3 {
+  max-width: 200px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

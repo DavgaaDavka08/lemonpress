@@ -1,0 +1,47 @@
+.mainStory {
+  width: 1180px;
+  display: flex;
+  margin: auto;
+  gap: 69px;
+  margin-top: 20px;
+}
+.connect-Data-Img {
+  display: flex;
+  gap: 35px;
+}
+.datas {
+  width: 332px;
+  height: 504px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+  overflow: scroll;
+  background-color: black;
+  color: white;
+  width: 75%;
+  gap: 10px;
+}
+
+.firstImg img {
+  width: 332px;
+  height: 504px;
+}
+.secondImg img {
+  width: 437px;
+  height: 135px;
+  border-radius: 3px;
+}
+/* //
+///
+// */
+.mainStory-Arr {
+  width: 437px;
+  height: 365px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

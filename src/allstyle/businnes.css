@@ -1,0 +1,42 @@
+.mainBusiness {
+  display: flex;
+  width: 1180px;
+  margin: auto;
+  justify-content: space-between;
+}
+.businnesRigth {
+  width: 679px;
+  height: 529px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mainBusiness img {
+  width: 778px;
+  height: 389px;
+}
+.blue {
+  color: blue;
+}
+.businessLeft img {
+  width: 358px;
+  height: 217px;
+}
+.businessLeft {
+  height: 529px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.mainCart {
+  margin-top: 20px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

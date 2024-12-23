@@ -1,0 +1,33 @@
+.main-news-div {
+  margin: auto;
+  display: flex;
+  max-width: 1180px;
+  height: 1280px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bussinusMap {
+  width: 330px;
+  height: 297px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  margin-left: 5px;
+}
+
+.bussinusMap img {
+  width: 330px;
+  height: 297px;
+}
+.cartP {
+  color: blue;
+}
+.cartH {
+  font-size: larger;
+}
+.cartText {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

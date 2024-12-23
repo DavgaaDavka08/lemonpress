@@ -1,0 +1,56 @@
+.Maincart {
+  width: 1180px;
+  margin: auto;
+}
+.maincards2 {
+  width: 778px;
+  height: 188px;
+  display: flex;
+  border: 1px solid rgba(226, 208, 208, 0.66);
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: ghostwhite;
+}
+.maincards2 img {
+  width: 300px;
+  height: 186px;
+}
+.photo1 img {
+  width: 380px;
+  height: 265px;
+}
+.photo2 img {
+  width: 380px;
+  height: 500px;
+}
+.photo-enginer img {
+  width: 781px;
+  height: 186px;
+  border-radius: 9px;
+}
+/* //
+ /* 2 00r arr ni css dotor */
+.second-card-maindiv {
+  width: 1180px;
+  margin: auto;
+}
+
+.news1 h2 {
+  width: 781px;
+  border: 1px solid transparent;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  height: 37px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  background-color: #f5f8fc;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+}
