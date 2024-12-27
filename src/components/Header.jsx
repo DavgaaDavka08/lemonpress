@@ -1,13 +1,25 @@
+import { useState } from "react";
 import "../allstyle/header.css";
-export const Header = () => {
+const arr = [
+  {
+    title: "2",
+    title2: "ncjdls",
+    title3: "dhie",
+  },
+];
+
+export const Header = () => {n
+  const [text, useText] = useState("");
+  const textHandler = (too) => useText(text + too);
   return (
     <div className="mainHeader">
       <div className="title">
         <img src="https://lemonpress.mn/logo/lemonpress.svg" alt="" />
-        <h4>Товхимол v</h4>
-        <h4>Нийтлэлүүд v</h4>
-        <h4>Цувралууд v</h4>
-        <h4>Подкаст v</h4>
+        <button onClick={textHandler}>Товхимол v</button>
+
+        <h4>{text}</h4>
+        <h4>{text}</h4>
+        <h4>{text}</h4>
       </div>
       <div className="header-rigth">
         <img src="./header.svg" alt="" />

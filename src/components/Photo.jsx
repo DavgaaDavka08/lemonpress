@@ -1,11 +1,15 @@
+import { use, useState } from "react";
 import "../allstyle/photo.css";
 export const Photo = () => {
+  const [change, setChange] = useState("");
+  const buttonCliked = (too) => setChange(change + too);
+  const clearHandler = () => setChange("");
+
   return (
     <div className="photo">
-      <img
-        src="https://cdn.boost.mn/6556f58dde9464479dddb0d0/creative/589fcbb4-9990-49e2-8ef0-cd90c00c5897.jpeg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=prod-boost-sa%40aqueous-cabinet-374702.iam.gserviceaccount.com%2F20241221%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241221T140849Z&X-Goog-Expires=86399&X-Goog-Signature=5f21f8c711b85949ace1f2b8caa327200af6d0e65228d437003871c3f60c4e184e531146a052ae3061f6343fe177bec59ea125f9f31151309ed225f0e58bc4d61c8aaf8effa00a2181684aa8559a9dcbf3ce9002afea4ab36ea79342e18c3a4e14c01b445d331b0a1cb0dae71239c3a607e31c21bcea618282638377cfcccd47c82d368d353834e2fd55d43f346e867f57ff987ed036604063bf000461c19698038658209e1421d877d9ce8771f3e9a839c6c5dcb61b851082598961f8be9c391a70b6ff8372dc2a68fd2e03b80a2db6bc9a62d8f109b0a3fb54c4a9644f9d5be71ab54a8acb6f7c18731d6e0c419e8519ed00b908b07fd8dfb72084b5f62ecf&X-Goog-SignedHeaders=host"
-        alt=""
-      />
+      {change}
+      <button onClick={buttonCliked}>rigth</button>
+      <button onClick={clearHandler}>cancel</button>
       <div className="lemonButton">
         <button>LEMONNADE</button>
         <p>Энхжин:Тийрэлтэн онгоцны Монголын анхны нисгэгч | S4:E5</p>
