@@ -1,45 +1,37 @@
-import { useState } from "react";
 import "../allstyle/header.css";
-
-const arr = [
-  {
-    title: "2",
-    title2: "ncjdls",
-    title3: "dhie",
-  },
-];
-
 export const Header = () => {
-  const [text, useText] = useState("");
-  const textHandler = (too) => useText(text + too);
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
   return (
-    <div
-      className="mainHeader"
-      style={{
-        background: isDarkMode ? "#333" : "#fff",
-        color: isDarkMode ? "#fff" : "#000",
-        minHeight: "200px",
-      }}
-    >
-      <div className="title">
+    <div className="header">
+      <div className="logo">
         <img src="https://lemonpress.mn/logo/lemonpress.svg" alt="" />
-        <button onClick={() => textHandler("hdjshfsdgh hbdcjsw")}>
-          Товхимол v
-        </button>
-        <h4>{text}</h4>
-        <h4>{text}</h4>
-        <h4>{text}</h4>
-      </div>
-      <div className="header-rigth">
-        <div className="mode">
-          <button onClick={() => setIsDarkMode(!isDarkMode)}>
-            clickmode{isDarkMode ? "Light" : "Dark"}
-          </button>
+        <div className="menus">
+          <div className="menu">
+            <p>Товхимол </p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div className="menu">
+            <p>Нийтлэлүүд</p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div className="menu">
+            <p>Цувралууд</p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div className="menu">
+            <p>Подкаст</p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div className="menu">
+            <p>Бидний Тухай</p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
         </div>
-        <img src="./header.svg" alt="" />
-        <button>Уншаад үзье</button>
+      </div>
+      <div className="input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button>
+          <p>Уншаад Үзэе</p>
+        </button>
       </div>
     </div>
   );
